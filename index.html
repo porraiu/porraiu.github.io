@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window.addEventListener('pageshow', function(event) {
+        if (event.persisted) {
+          window.location.reload(); // Refresh the page to perform redirection
+        }
+      });
+      
+      window.onload = function() {
+        window.location.href = "https://www.example.com";
+      };
+    </script>
+  </head>
+  <body>
+    <h1>A Redirecionar...</h1>
+    <p>Esta página irá levá-lo ao Porfólio.</p>
+  </body>
+</html>
